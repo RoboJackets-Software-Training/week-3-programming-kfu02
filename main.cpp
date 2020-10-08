@@ -3,6 +3,28 @@
 #include <iostream>
 
 int main() {
+    // LinkedList trainers = LinkedList();
+    // trainers.remove_from_back();
+    //
+    // trainers.add_to_front("Kyle");
+    // trainers.print_names();
+    // trainers.remove_from_back();
+    // trainers.print_names();
+    //
+    // trainers.add_to_front("4");
+    // trainers.add_to_front("3");
+    // trainers.add_to_front("2");
+    // trainers.add_to_front("1");
+    // trainers.print_names();
+    // trainers.add_to_back("back");
+    // trainers.print_names();
+    // trainers.remove_from_back();
+    // trainers.print_names();
+    // trainers.add_at_index("indx", 1);
+    // trainers.print_names();
+    // trainers.remove_from_front();
+    // trainers.print_names();
+    
     LinkedList trainers = LinkedList();
     trainers.remove_from_back();
     trainers.add_to_front("Kyle");
@@ -23,7 +45,6 @@ int main() {
     trainers.print_names();
     trainers.remove_at_index(0);
     trainers.print_names();
-
 
     return 1;
 }
